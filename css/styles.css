@@ -1,11 +1,22 @@
 body {
     margin: 0;
-    font-family: 'Texturina', serif;
+    font-family: 'Castoro', serif;
+}
+
+@keyframes mymove {
+    from {
+        top: 600px;
+        opacity: 0;
+    }
+    to {
+        top: 469px;
+    }
 }
 
 .hero-image {
     background-color: #b6b3b3;
-    background-position: 50% 50%;    width: 100vw;
+    background-position: 50% 50%;
+    width: 100vw;
 }
 
 .hero-image img {
@@ -16,6 +27,7 @@ body {
     font-size: 3.5em;
     text-align: center;
     position: absolute;
+    animation: mymove 1s;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
