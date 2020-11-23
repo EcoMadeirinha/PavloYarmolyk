@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    font-family: 'Texturina', serif;
+}
+
+.hero-image {
+    background-image: url("/data/001/MBG-HIDEF.png");
+    background-color: #b6b3b3;
+    height: 1040px;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.hero-text {
+    font-size: 5.5em;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(255, 255, 255);
+}
+
+.hero-text h1 {
+    font-size: 1.5em;
+    padding-bottom: 1rem;
+    line-height: 1.1;
+}
+button {
+    min-width: 8vw;
+    padding: 10px!important;
+    font-size: 0.23em!important;
+
+}
