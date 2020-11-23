@@ -4,17 +4,16 @@ body {
 }
 
 .hero-image {
-    background-image: url("/data/001/MBG-HIDEF.png");
     background-color: #b6b3b3;
-    height: 1040px;
-    background-position: 50% 50%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
+    background-position: 50% 50%;    width: 100vw;
+}
+
+.hero-image img {
+    width: 100%;
 }
 
 .hero-text {
-    font-size: 5.5em;
+    font-size: 3.5em;
     text-align: center;
     position: absolute;
     top: 50%;
@@ -25,12 +24,17 @@ body {
 
 .hero-text h1 {
     font-size: 1.5em;
-    padding-bottom: 1rem;
+    padding-bottom: 3rem;
     line-height: 1.1;
 }
+
+.hero-text h3 {
+    font-weight: 100;
+}
+
 button {
     min-width: 8vw;
     padding: 10px!important;
     font-size: 0.23em!important;
-
+    margin: 5ch;
 }
