@@ -19,13 +19,72 @@
     <header>
 
     </header>
+<!-- Modal -->
+<div class="modal fade bd-example-modal-lg" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle"
+    aria-hidden="true">
+    <div class="modal-dialog modal-lg shadow-lg p-3 mb-5 bg-white rounded" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLongTitle">About me</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                
+                <img src="data/001/bio.png" alt="bio" style="float: left; padding: 0 3rem 3rem 3rem;">
+                <div>
+                <h2>Pavlo Yarmolyk</h2>
+                <p> Graduated Lviv National Academy of Fine Arts in 2009.
+                I work in different types of fine arts: installation, sculpture, mosaics, restoration, but primarily in panel and
+                monumental painting.</p>
+                <p>I had several personal exhibitions, and participated in collective projects in Ukraine and abroad:
+                    <ol>
+                <li> 1999 Exhibition of Young Artists. Ternopil, Ukraine</li>
+                <li> 2004 Scenography for a concert of the Creative Club “Rейвах”. Yevpatoria, Crimea</li>
+                <li> 2006 Lviv autumn salon. Collective exhibition. Lviv, Ukraine</li>
+                <li> 2010 Easter exhibition of Ukrainian artists. Paris, Madrid</li>
+                <li> 2010 Personal exhibition. Gallery "Yuka". Lviv, Ukraine</li>
+                <li> 2015 Personal exhibition. Gorajec, Poland</li>
+                <li> 2015 Personal exhibition. "Bunker Muse" gallery. Ternopil, Ukraine</li>
+                <li> 2015 Personal exhibition. "Factory of jam", art location. Lviv, Ukraine</li>
+                <li> Starting from 2016 I am teaching Academic Drawing and Painting at the Ukrainian Academy of Printing.</li>
+                <li> 2017 Art Cube. Collective exhibition. Lviv, Ukraine</li>
+                <li> 2017 “Under the star of Pinzel”. Collective exhibition. Lviv, Ukraine</li>
+                <li> Since 2019 I have been working creatively in the workshop, and I am engaged in the restoration of the facades of old
+                houses.</li>
+                    </ol>
+                </p>
+                Ideas for my works I get from different sources. The main sources are the life itself, my life, the way, actions, things
+                that surround me, etc.
+                Often, in order to create new work, I combine old masters’ techniques with modern materials (metal, cloth, wood,
+                pigments, paints, smalt, stone, glass.
+                I also use household items, parts from bicycles, things that symbolize or indicate a certain place or time, checks,
+                tickets, and similar materials that conditionally record time.
+                It is pleasant that ordinary things and materials acquire a different meaning, become images and symbols.
+                There is also an idea of the free will of the human being in some of my works. "We have a keys to happiness and a nails
+                for torture", where were used materials of symbolic character and mystic meaning, which are typically used in the icons
+                creation.
+                
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Save changes</button>
+            </div>
+        </div>
+    </div>
+</div>
 <div style="height: 100vh;">
 <div class="hero-image .img-fluid">
     <img src="/data/001/MBG-1920-1012.png" alt="main background">
     <div class="hero-text">
         <h1>I am Pavlo Yarmolyk</h1>
         <h3>And I'm an Artist</h3>
-        <button type="button" class="btn btn-outline-light">Biografy</button>
+        <!-- Button trigger modal -->
+        <button type="button" class="btn btn-outline-light" data-toggle="modal" data-target="#exampleModalLong">
+        Biografy
+        </button>
         <button type="button" class="btn btn-outline-light">Gallery</button>
     </div>
 </div>
