@@ -58,24 +58,21 @@ body {
 
 button {
     min-width: 8vw;
-    padding: 10px!important;
-    font-size: 0.3em!important;
     margin: 5ch;
 }
 
 .modal-body {
     padding: 3rem;
     font-size: 1.2em;
-    font-weight: 900;
-    line-height: 2;
+    line-height: 2em;
     letter-spacing: 2px;
     color: rgb(0, 0, 0);
 }
 
 .modal-title {
-    font-size: 1.5em;
-    letter-spacing: 4px;
-    color: rgb(255, 255, 255);
+    font-size: 1.2em;
+    color: transparent;
+
 }
 
 #exampleModalLongTitle {
@@ -85,7 +82,8 @@ button {
 .modal-content {
     background-image: url("https://pavloyarmolyk.netlify.app/data/001/opaS2.jpg");
     background-position: center;
-    font-family: 'arial', serif;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 800;
 }
 
 /*Modal width*/
