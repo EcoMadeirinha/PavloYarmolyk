@@ -134,6 +134,15 @@ button {
         min-width: 5vw;
         margin: 3ch;
     }
+    .modal-body {
+        padding: 1em;
+    }
+    .modal_img {
+        float: none;
+        width: 60vw;
+        padding: 0.5rem;
+        margin:2rem;
+    }
 }
 
 /* Large devices (desktops, less than 1200px) */
