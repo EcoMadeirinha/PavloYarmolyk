@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    font-family: 'Castoro', serif;
+    font-family: 'Sansita Swashed', cursive;
 }
 
 @keyframes mymove {
@@ -19,6 +19,8 @@ body {
     }
 }
 
+/* front page bacground image*/
+
 .hero-image {
     background-color: #b6b3b3;
     background-position: 50% 50%;
@@ -28,6 +30,8 @@ body {
 .hero-image img {
     width: 100%;
 }
+
+/*Front page main text*/
 
 .hero-text {
     font-size: 3.5em;
@@ -50,17 +54,28 @@ body {
     font-weight: 100;
 }
 
+/*Front page main buttons*/
+
 button {
     min-width: 8vw;
     padding: 10px!important;
-    font-size: 0.23em!important;
+    font-size: 0.3em!important;
     margin: 5ch;
 }
 
 .modal-body {
     padding: 3rem;
-    font-size: 19px;
-    line-height: 1.7;
+    font-size: 1.2em;
+    font-weight: 900;
+    line-height: 2;
+    letter-spacing: 2px;
+    color: rgb(0, 0, 0);
+}
+
+.modal-title {
+    font-size: 1.5em;
+    letter-spacing: 4px;
+    color: rgb(255, 255, 255);
 }
 
 #exampleModalLongTitle {
@@ -68,13 +83,19 @@ button {
 }
 
 .modal-content {
-    background-image: url("https://pavloyarmolyk.netlify.app/data/painting/keeandnails/opaS.jpg");
+    background-image: url("https://pavloyarmolyk.netlify.app/data/001/opaS2.jpg");
+    background-position: center;
+    font-family: 'arial', serif;
 }
 
-.modal-body {
-    opacity: 1;
-}
+/*Modal width*/
 
 .modal-lg {
     min-width: 80%;
+}
+
+.modal_img {
+    float: left;
+    padding: 0 1rem 1rem 1rem;
+    margin: 0 3rem;
 }
