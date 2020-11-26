@@ -1,6 +1,7 @@
 body {
     margin: 0;
     font-family: 'Sansita Swashed', cursive;
+    background-color: #b6b3b3;
 }
 
 @keyframes mymove {
@@ -21,14 +22,13 @@ body {
 
 /* front page bacground image*/
 
-.hero-image {
+.jumbotron {
+    background-image: url("https://pavloyarmolyk.netlify.app//data/001/MBG-1920-1012.png");
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     background-color: #b6b3b3;
-    background-position: 50% 50%;
-    width: 100vw;
-}
-
-.hero-image img {
-    width: 100%;
 }
 
 /*Front page main text*/
@@ -44,7 +44,7 @@ body {
     color: rgb(255, 255, 255);
 }
 
-.hero-text h1 {
+.hero-text h2 {
     font-size: 1em;
     padding-bottom: 3rem;
     line-height: 1.1;
@@ -72,7 +72,6 @@ button {
 .modal-title {
     font-size: 1.2em;
     color: transparent;
-
 }
 
 #exampleModalLongTitle {
