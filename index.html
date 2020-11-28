@@ -19,7 +19,7 @@
 </head>
 
 <body>
-    <!-- Modal -->
+    <!-- Modal biography -->
     <div class="modal fade bd-example-modal-lg" id="exampleModalLong" tabindex="-1" role="dialog"
         aria-labelledby="exampleModalLongTitle" aria-hidden="true">
         <div class="modal-dialog modal-lg shadow-lg p-3 mb-5 bg-white rounded" role="document">
@@ -107,23 +107,75 @@
             </div>
         </div>
     </div>
-    </div>
- <!--   
-    <div style="height: 100vh;">
-        <div class="hero-image .img-fluid">
-            <img src="/data/001/MBG-1920-1012.png" alt="main background">
-            <div class="hero-text">
-                <h1>I am Pavlo Yarmolyk</h1>
-                <h3>And I'm an Artist</h3>
-                
-                <button type="button" class="btn btn-outline-light" data-toggle="modal" data-target="#exampleModalLong">
-        Biografy
-        </button>
-                <button type="button" class="btn btn-outline-light">Gallery</button>
+ 
+        <!-- Modal Gallery-->
+    <div class="modal fade bd-example-modal-lg" id="modal_gallery" tabindex="-1" role="dialog"
+        aria-labelledby="modal_galleryTitle" aria-hidden="true">
+        <div class="modal-dialog modal-lg shadow-lg p-3 mb-5 bg-white rounded" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modal_galleryTitle">Gallery</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                </div>
+                <div class="modal-body">
+                    <div class="container ">
+                        <h3>Sections</h3>
+                        <br>
+                        <figure class="figure polaroid ">
+                            <a href="/metal.html">
+                            <div class="img_wrap">
+                                <img src="data/Metal_composition_with_bike/DSC07266+.jpg" class="img-fluid shadow rounded" alt="SaintFranciskofAssisi">
+                            </div>
+                            <figcaption class="figure-caption container_polaroid">Metal composition with bike</figcaption>
+                            </a>
+                        </figure>
+
+                        <figure class="figure polaroid ">
+                            <a href="http://">
+                            <div class="img_wrap">
+                                <img src="data/mosaic/Godnes.jpg" class="img-fluid shadow rounded" alt="SaintFranciskofAssisi">
+                            </div>
+                                <figcaption class="figure-caption container_polaroid">Mosaic</figcaption>
+                            </a>
+                        </figure>
+
+                        <figure class="figure polaroid ">
+                            <a href="http://">
+                                <div class="img_wrap">
+                                    <img src="data/painting/Digitalisations/gigi.jpg" class="img-fluid shadow rounded" alt="SaintFranciskofAssisi">
+                                </div>
+                                    <figcaption class="figure-caption container_polaroid"> Paintings </figcaption>
+                                
+                            </a>
+                        </figure>
+                        <figure class="figure polaroid ">
+                            <a href="http://">
+                                <div class="img_wrap">
+                                    <img src="data/Sacral Art/4 kupol-6.jpg" class="img-fluid shadow rounded" alt="SaintFranciskofAssisi">
+                                </div>
+                                <figcaption class="figure-caption container_polaroid">Sacral Art</figcaption>
+                                
+                            </a>
+                        </figure>
+                        <figure class="figure polaroid ">
+                            <a href="http://">
+                                <div class="img_wrap">
+                                <img src="data/wall painting/FB_IMG_1563528301839.jpg" class="img-fluid shadow rounded" alt="SaintFranciskofAssisi">
+                                </div>
+                                <figcaption class="figure-caption container_polaroid">Wall paintings</figcaption>
+                            </a>
+                        </figure>                        
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-outline-dark" data-dismiss="modal">Close</button>
             </div>
         </div>
     </div>
--->
+
     <div class="jumbotron jumbotron-fluid">
         <div class="hero-text container">
             <h2 class="display-4">I am Pavlo Yarmolyk</h2>
@@ -132,7 +184,7 @@
             <button type="button" class="btn btn-outline-light" data-toggle="modal" data-target="#exampleModalLong">
                     Biography
             </button>
-            <button type="button" class="btn btn-outline-light" data-toggle="modal" data-target="#exampleModalLong">
+            <button type="button" class="btn btn-outline-light" data-toggle="modal" data-target="#modal_gallery">
                                 Gallery
             </button>
         </div>
