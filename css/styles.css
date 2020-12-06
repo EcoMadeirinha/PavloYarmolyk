@@ -145,6 +145,29 @@ button {
     cursor: context-menu;
 }
 
+footer, footer hr{
+    text-align: center;
+    list-style-type: none;
+    padding: 2rem;
+
+}
+
+.soc, #soc {
+    list-style-type: none;
+    padding: 2rem;
+    color: inherit; /* blue colors for links too */
+    text-decoration: none; /* no underline */
+}
+
+footer ul {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style-type: none;
+    padding: 2rem;
+}
+
 /* Extra small devices (portrait phones, less than 576px) */
 
 @media (max-width: 575.98px) {
