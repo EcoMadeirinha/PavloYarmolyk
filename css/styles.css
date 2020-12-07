@@ -120,7 +120,7 @@ hr {
 .img_wrap img {
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    object-fit: contain;
     object-position: center;
 }
 
@@ -180,7 +180,7 @@ footer .flex_footer p {
     /* Make sure it does not overlap */
     background-color: cornsilk;
     width: 2rem;
-    height: 2rem;
+    height: auto;
     border-radius: 50%;
     border: none;
     /* Set a background color */
