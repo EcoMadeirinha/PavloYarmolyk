@@ -4,6 +4,11 @@ body {
     background-color: #b6b3b3;
 }
 
+hr {
+    color: #634d39;
+    border: 1px solid;
+}
+
 @keyframes mymove {
     from {
         opacity: 0;
@@ -135,10 +140,10 @@ body {
     padding: 2rem;
     line-height: 1.9;
     letter-spacing: 1.5px;
-    background-color: rgb(255, 255, 255);
-    border: burlywood;
+    background-color:cornsilk;
+    border: #634d39;
     border-radius: 15px;
-    box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2), 0 6px 20px 0 rgba(255, 184, 30, 0.19);
+    box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2), 0 6px 20px 0 rgba(138, 99, 17, 0.582);
 }
 
 .row a {
