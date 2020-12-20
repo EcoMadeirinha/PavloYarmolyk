@@ -224,6 +224,10 @@ footer .flex_footer p {
 /* Medium devices (tablets, less than 992px) */
 
 @media (max-width: 991.98px) {
+    .container-fluid {
+        width: initial;
+        margin-right: 0;
+    }
     .gallery_description {
         font-size: 0.8em;
     }
