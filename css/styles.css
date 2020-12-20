@@ -29,7 +29,7 @@ hr {
 /* front page background image*/
 
 .jumbotron {
-    background-image: url("https://pavloyarmolyk.netlify.app//data/001/MBG-1920-1012.png");
+    background-image: url("https://pavloyarmolyk.netlify.app//data_small/001/MBG-1920-1012.png");
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -85,7 +85,7 @@ hr {
 }
 
 .modal-content {
-    background-image: url("https://pavloyarmolyk.netlify.app/data/001/opaS2.jpg");
+    background-image: url("https://pavloyarmolyk.netlify.app/data_small/001/opaS2.jpg");
     background-position: center;
     font-family: 'Quicksand', sans-serif;
     font-weight: 800;
@@ -236,7 +236,7 @@ footer .flex_footer p {
     /*front page main text*/
     .jumbotron {
         font-size: 0.5em;
-        background-image: url("https://pavloyarmolyk.netlify.app//data/001/MBG-1920-1012.png");
+        background-image: url("https://pavloyarmolyk.netlify.app//data_small/001/MBG-1920-1012.png");
     }
     .hero-text h2 {
         font-size: 1em;
