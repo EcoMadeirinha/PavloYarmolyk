@@ -85,7 +85,7 @@ hr {
 }
 
 .modal-content {
-    background-image: url("https://pavloyarmolyk.netlify.app/data_small/001/opaS2.jpg");
+    background-image: url("https://pavloyarmolyk.site/data_small/001/opaS2.jpg");
     background-position: center;
     font-family: 'Quicksand', sans-serif;
     font-weight: 800;
@@ -216,10 +216,10 @@ footer .flex_footer p {
 /* Extra small devices (portrait phones, less than 576px) */
 
 @media (max-width: 575.98px) {
-    .jumbotron {
+    /* .jumbotron {
         font-size: 0.5em;
-        background-image: url("https://pavloyarmolyk.netlify.app/data_small/001/bcg-mobile.png");
-    }
+        background-image: url("https://pavloyarmolyk.site/data_small/001/bcg-mobile.png");
+    } */
 }
 
 /* Small devices (landscape phones, less than 768px) */
