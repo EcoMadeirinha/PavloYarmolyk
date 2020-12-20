@@ -15,22 +15,17 @@
         integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
         crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/7d9f56b2d5.js" crossorigin="anonymous"></script>
-    
+
     <link rel="icon" type="image/jpg" href="data_small/001/favbio.jpg" />
     <title>Personal Gallery</title>
 </head>
 
 <body>
-    <!-- Modal biography -->
-    <div class="modal fade bd-example-modal-lg" id="exampleModalLong" tabindex="-1" role="dialog"
-        aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+    <div class="modal fade bd-example-modal-lg" id="Biography" tabindex="-1" role="dialog"
+        aria-labelledby="main_page_Title" aria-hidden="true">
         <div class="modal-dialog modal-lg shadow-lg p-3 mb-5 bg-white rounded" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLongTitle">About me</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                </button>
                 </div>
                 <div class="modal-body">
 
@@ -98,7 +93,8 @@
                                 change that is used in many cultures of the world.</figcaption>
                         </figure>
                         <p>
-                            I can say that the main idea of my inspiration and art works is the constant contemplation of the nature and its
+                            I can say that the main idea of my inspiration and art works is the constant contemplation
+                            of the nature and its
                             creations and pass these observations through my being.
                         </p>
                     </div>
@@ -113,13 +109,15 @@
                         <a href="#" class="col-3 soc"> <i class="fab fa-twitter mt-4 fa-2x"></i></a>
                     </div>
                 </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-outline-dark" data-dismiss="modal">Close</button>
+                </div>
             </div>
         </div>
     </div>
- 
-        <!-- Modal Gallery-->
+
     <div class="modal fade bd-example-modal-lg" id="modal_gallery" tabindex="-1" role="dialog"
-        aria-labelledby="modal_galleryTitle" aria-hidden="true">
+        aria-labelledby="modal_gallery_title" aria-hidden="true">
         <div class="modal-dialog modal-lg shadow-lg p-3 mb-5 bg-white rounded" role="document">
             <div class="modal-content">
                 <div class="modal-body">
@@ -166,8 +164,11 @@
                                 </div>
                                 <figcaption class="figure-caption container_polaroid">Wall paintings</figcaption>
                             </a>
-                        </figure>                        
+                        </figure>
                     </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-outline-light" data-dismiss="modal">Close</button>
                 </div>
             </div>
         </div>
@@ -178,7 +179,7 @@
             <h2 class="display-4">I am Pavlo Yarmolyk</h2>
             <h3 class="display-8">And I'm an Artist</h3>
             <!-- <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p> -->
-            <button type="button" class="btn btn-outline-light" data-toggle="modal" data-target="#exampleModalLong">
+            <button type="button" class="btn btn-outline-light" data-toggle="modal" data-target="#Biography">
                     Biography
             </button>
             <button type="button" class="btn btn-outline-light" data-toggle="modal" data-target="#modal_gallery">
@@ -186,7 +187,6 @@
             </button>
         </div>
     </div>
-
     <script>
         $(function () {
             var nua = navigator.userAgent

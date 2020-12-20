@@ -2,6 +2,7 @@ body {
     margin: 0;
     font-family: 'Sansita Swashed', cursive;
     background-color: #b6b3b3;
+    height: 100vh;
 }
 
 hr {
@@ -25,11 +26,11 @@ hr {
     }
 }
 
-/* front page bacground image*/
+/* front page background image*/
 
 .jumbotron {
     background-image: url("https://pavloyarmolyk.netlify.app//data/001/MBG-1920-1012.png");
-    height: 100vh;
+    height: 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -63,7 +64,7 @@ hr {
 
 .btn {
     min-width: 8vw;
-    margin: 5ch;
+    margin: 0 1ch 1ch;
 }
 
 .modal-body {
@@ -79,7 +80,7 @@ hr {
     color: white;
 }
 
-#exampleModalLongTitle {
+#main_page_Title {
     font-size: 25px;
 }
 
@@ -100,6 +101,11 @@ hr {
     float: left;
     padding: 0 1rem 1rem 1rem;
     margin: 0 3rem;
+}
+
+.modal-footer {
+    padding: 0;
+    border-top: 0;
 }
 
 .polaroid {
@@ -155,6 +161,7 @@ footer {
     color: cornsilk;
     text-align: center;
     padding-top: 2rem;
+    margin-top: 2rem;
 }
 
 footer .flex_footer a, .soc {
@@ -162,7 +169,7 @@ footer .flex_footer a, .soc {
     text-decoration: none;
 }
 
-.container.mb-4 h3{
+.container.mb-4 h3 {
     margin-bottom: 25px;
 }
 
@@ -176,7 +183,7 @@ footer .flex_footer p {
     display: inline;
 }
 
-#myBtn {
+#button_to_the_top {
     display: none;
     /* Hidden by default */
     position: fixed;
@@ -200,7 +207,7 @@ footer .flex_footer p {
     /* Add a mouse pointer on hover */
 }
 
-#myBtn:hover {
+#button_to_the_top:hover {
     background-color: rgb(206, 206, 206);
     border: none;
     /* Add a dark-grey background on hover */
@@ -230,11 +237,6 @@ footer .flex_footer p {
     .jumbotron {
         font-size: 0.5em;
         background-image: url("https://pavloyarmolyk.netlify.app//data/001/MBG-1920-1012.png");
-        height: 100vh;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-color: #b6b3b3;
     }
     .hero-text h2 {
         font-size: 1em;
