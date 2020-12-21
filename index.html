@@ -20,7 +20,9 @@
     <title>Personal Gallery</title>
 </head>
 
-<body>
+<body style="overflow: hidden;">
+    <div class="backimage"></div>
+    <div class="backcolor"></div>
     <div class="modal fade bd-example-modal-lg" id="Biography" tabindex="-1" role="dialog"
         aria-labelledby="main_page_Title" aria-hidden="true">
         <div class="modal-dialog modal-lg shadow-lg p-3 mb-5 bg-white rounded" role="document">
@@ -99,18 +101,18 @@
                         </p>
                     </div>
                 </div>
-                <div class="container mb-5">
-                    <hr>
-                    <h3>Find me on Social media</h3>
-                    <div class="row text-center">
-                        <a href="https://www.facebook.com/pavlo.armolik/" class="col-3 soc"> <i class="fab fa-facebook mt-4 fa-2x"></i></a>
-                        <a href="https://www.instagram.com/pavlo.yarmolyk/" class="col-3 soc"> <i class="fab fa-instagram mt-4 fa-2x"></i></a>
-                        <a href="#" class="col-3 soc"> <i class="fab fa-telegram mt-4 fa-2x"></i></a>
-                        <a href="#" class="col-3 soc"> <i class="fab fa-twitter mt-4 fa-2x"></i></a>
-                    </div>
-                </div>
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-outline-dark" data-dismiss="modal">Close</button>
+                    <div class="container mb-5">
+                        <hr>
+                        <h3>Find me on Social media</h3>
+                        <div class="row text-center">
+                            <a href="https://www.facebook.com/pavlo.armolik/" class="col-3 soc"> <i class="fab fa-facebook mt-4 fa-2x"></i></a>
+                            <a href="https://www.instagram.com/pavlo.yarmolyk/" class="col-3 soc"> <i class="fab fa-instagram mt-4 fa-2x"></i></a>
+                            <a href="#" class="col-3 soc"> <i class="fab fa-telegram mt-4 fa-2x"></i></a>
+                            <a href="#" class="col-3 soc"> <i class="fab fa-twitter mt-4 fa-2x"></i></a>
+                        </div>
+                    </div>
+                    <button type="button" class="btn btn-outline-light btn_modal_bio" data-dismiss="modal">Close</button>
                 </div>
             </div>
         </div>
@@ -178,7 +180,6 @@
         <div class="hero-text container">
             <h2 class="display-4">I am Pavlo Yarmolyk</h2>
             <h3 class="display-8">And I'm an Artist</h3>
-            <!-- <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p> -->
             <button type="button" class="btn btn-outline-light" data-toggle="modal" data-target="#Biography">
                     Biography
             </button>
